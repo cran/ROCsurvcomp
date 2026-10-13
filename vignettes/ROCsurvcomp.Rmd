@@ -27,7 +27,7 @@ To address these issues, the package implements a novel nonparametric and semipa
 
 ### ROC Length
 
-The first method is based on the length of the Receiver Operating Characteristic (ROC) curve. The ROC curve is one of the most widely used statistical methods for evaluating continuous classifiers that attempt to distinguish between two groups, typically a control group (group 1) and a diseased group (group 2) [@Pepe2003Statistical]. The length of the ROC curve under the biomarker framework has been discussed by @Maswadeh2015Variable, @MartinezCamblor2017ROC, @FrancoPereira2020Biomarker, and @Bantis2021Length.
+The first method is based on the length of the Receiver Operating Characteristic (ROC) curve. The ROC curve is one of the most widely used statistical methods for evaluating continuous classifiers that attempt to distinguish between two groups, typically a control group (group 1) and a diseased group (group 2). The length of the ROC curve under the biomarker framework has been discussed by @Maswadeh2015Variable, @MartinezCamblor2017ROC, @FrancoPereira2020Biomarker, @Pepe2003Statistical, and @Bantis2021Length.
 
 Let $X_1$ and $X_2$ denote the continuous scores of the classifier for groups 1 and 2, respectively, with survival functions $S_1(\cdot) = 1 - F_1(\cdot)$ and $S_2(\cdot) = 1 - F_2(\cdot)$, where $F_1$ and $F_2$ are the cumulative distribution functions (CDF) of the two groups with a common support. The corresponding probability density functions (PDF) are denoted with $f_1(\cdot)$ and $f_2(\cdot)$. The implied ROC curve is then given by,
 

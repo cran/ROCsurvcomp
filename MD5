@@ -1,6 +1,6 @@
-5aa69ebafd2a1a3a5a1dd15f97aeca29 *DESCRIPTION
-f56528e1f803b59aa51744f61dbd8034 *NAMESPACE
-0cf8898ad67ae56ba6c2c054576f5c52 *NEWS.md
+78fb677bd973d92a1bfbd2012bd28d88 *DESCRIPTION
+5caf0dd73b3fdb57eab59f094d34eac5 *NAMESPACE
+f3a9580ce317c67822f3e674b1876622 *NEWS.md
 bab405b54afc03d3b22fa6b48576615c *R/boxcox_censor.R
 385ff06ac2a88a67fa5ee619a8bacd7b *R/doublecen_survivaltest_functions.R
 ca9c709f64fcfcf4a7f27af0e35c20b2 *R/globals.R
@@ -13,11 +13,11 @@ e91077f3ad7e698ba3493b4cd16ee464 *R/imports.R
 7c2b862e03243a39fb09e8683d78cb8f *build/vignette.rds
 3d680158f940ec969ca8568c3114c11d *inst/WORDLIST
 f91a07a0ab6e50cfffd282cb2f78d7f4 *inst/doc/ROCsurvcomp.R
-b85983e9db964dc0b5ac7ed7368e7e59 *inst/doc/ROCsurvcomp.Rmd
-25392e0fcaae6d7650ad29eec8608a33 *inst/doc/ROCsurvcomp.html
+4d134359821a37eb51d413518d3ac6e1 *inst/doc/ROCsurvcomp.Rmd
+9ecad3256100344653e4e9ee3926f86e *inst/doc/ROCsurvcomp.html
 2d902ac865afcf203c64e8163164e72c *man/surv.comp.Rd
 e590502a677dcf8f2344509edec42280 *tests/testthat.R
 36f1c94815ec5e32f08a68a25ef26dfc *tests/testthat/test-surv_comp.R
-b85983e9db964dc0b5ac7ed7368e7e59 *vignettes/ROCsurvcomp.Rmd
+4d134359821a37eb51d413518d3ac6e1 *vignettes/ROCsurvcomp.Rmd
 bb09d730bb68582dfff7336b7f15db73 *vignettes/figures/joint_plot.png
 02de511ddd2746d74d0c2072ce938089 *vignettes/references.bib

@@ -1,3 +1,9 @@
+# ROCsurvcomp 0.1.3
+## Additional Minor changes
+- Updated the Description field to provide additional details on the methodology and added relevant DOI citations.
+- Adjusted a citation's placement in the vignette.
+
+
 # ROCsurvcomp 0.1.2
 ## Changes suggested by CRAN
 - Updated the Description field to expand the acronym ROC to Receiver Operating Characteristic (ROC).
