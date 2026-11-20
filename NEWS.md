@@ -1,3 +1,10 @@
+# ROCsurvcomp 0.1.4
+## Additional Minor changes
+- Updated the Description field to correct minor errors.
+- Added a reference to my recently published article describing the statistical methods implemented in the package. Updated the Description and Vignette accordingly.
+- Added an additional citation, and included a sentence in the Vignette.
+
+
 # ROCsurvcomp 0.1.3
 ## Additional Minor changes
 - Updated the Description field to provide additional details on the methodology and added relevant DOI citations.

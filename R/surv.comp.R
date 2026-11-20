@@ -69,6 +69,12 @@
 #' Inference on the overlap coefficient: The binormal approach and alternatives.
 #' \emph{Statistical Methods in Medical Research}, 30(12), 2672--2684.
 #'
+#' Rahman MM, Bantis LE (2026).
+#' ROC-based methods for comparing two survival curves under non-proportional
+#' hazards with right, left, and doubly censored data.
+#' \emph{Statistical Methods in Medical Research}, 09622802261497856.
+#' \doi{10.1177/09622802261497856}
+#'
 #' @examples
 #' # Example usage
 #' library(ROCsurvcomp)

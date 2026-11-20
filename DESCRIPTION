@@ -1,14 +1,14 @@
 Package: ROCsurvcomp
 Title: ROC-Based Methods for Comparing Survival Distributions with
         Right, Left, and Doubly Censored Data
-Version: 0.1.3
-Date: 2026-10-01
+Version: 0.1.4
+Date: 2026-11-20
 Authors@R: c(person("Mohammod Mahmudur", "Rahman", role = c("aut", "cre"),
              email = "mahmudur.asif13@gmail.com"),
              person("Leonidas", "Bantis", role = "aut",
              email = "lbantis@kumc.edu"))
 Maintainer: Mohammod Mahmudur Rahman <mahmudur.asif13@gmail.com>
-Description: Implements nonparametric and semiparametric methods for comparing two survival distributions under non-proportional hazards (non-PH) with right, left, or doubly censored data. The methods are based on the Receiver Operating Characteristic (ROC) curve length and its kernel-based estimate (Bantis et al. (2021) <doi:10.1002/sim.8869>) and the overlap coefficient (OVL) and its kernel-based estimate (Schmid and Schmidt (2006) <doi:10.1016/j.csda.2005.01.014>), as well as a new joint inference approach involving both the kernel-based ROC length and the kernel-based OVL. These methods do not require prior knowledge of the underlying non-PH pattern. The methods also accommodate the "last is censored" phenomenon for right-censored data by using flexible parametric approaches only for the portion of the tail of the distribution that corresponds to time values beyond the last observed event (see also Bantis et al. (2017) <doi:10.1002/sim.7394>). The analogous "first is censored" phenomenon is also accommodated for left-censored data.
+Description: Implements nonparametric and semiparametric methods for comparing two survival distributions under non-proportional hazards (non-PH) with right, left, and doubly censored data. The methods are based on the Receiver Operating Characteristic (ROC) curve length and its kernel-based estimate (Bantis et al. (2021) <doi:10.1002/sim.8869>) and the overlap coefficient (OVL) and its kernel-based estimate (Schmid and Schmidt (2006) <doi:10.1016/j.csda.2005.01.014>), as well as a new joint inference approach involving both the kernel-based ROC length and the kernel-based OVL. These methods do not require prior knowledge of the underlying non-PH pattern. The methods accommodate the "last is censored" phenomenon for right-censored data by using flexible parametric approaches only for the portion of the tail of the distribution that corresponds to time values beyond the last observed event (see Bantis et al. (2017) <doi:10.1002/sim.7394>). The analogous "first is censored" phenomenon is also accommodated for left-censored data. For more technical details, please see Rahman and Bantis (2026) <doi:10.1177/09622802261497856>.
 License: GPL-3
 Encoding: UTF-8
 Imports: survival, interval, stats, utils, ggplot2
@@ -18,8 +18,8 @@ Config/testthat/edition: 3
 VignetteBuilder: knitr
 Config/roxygen2/version: 8.1.0
 NeedsCompilation: no
-Packaged: 2026-10-02 02:27:33 UTC; mahmudur_asif
+Packaged: 2026-11-20 14:10:45 UTC; mahmudur_asif
 Author: Mohammod Mahmudur Rahman [aut, cre],
   Leonidas Bantis [aut]
 Repository: CRAN
-Date/Publication: 2026-10-13 08:30:28 UTC
+Date/Publication: 2026-11-20 14:30:50 UTC

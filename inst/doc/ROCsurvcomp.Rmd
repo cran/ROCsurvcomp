@@ -1,7 +1,7 @@
 ---
 title: "ROCsurvcomp"
 author: "MM Rahman and LE Bantis"
-date: 2026-05-05
+date: 2026-10-13
 output: rmarkdown::html_vignette
 bibliography: references.bib
 vignette: >
@@ -20,6 +20,8 @@ To address these issues, the package implements a novel nonparametric and semipa
 - provide robust power across a wide range of non-PH scenarios (early, late, or crossing effects)
 - can accommodate right, left, and doubly censored data
 - perform permutation-based inference with two-sided hypothesis testing.
+
+For more technical details, please see @Rahman2026ROC.
 
 ---
 
@@ -45,7 +47,7 @@ The range of ROC length is:  $\sqrt{2} \leq l_{\text{ROC}} \leq 2$. The lower bo
 
 ### Overlap Coefficient (OVL)
 
-The second method utilizes the overlap coefficient (OVL), which measures the similarity between two distributions using the common area between two probability density functions [@FrancoPereira2021Overlap]. It was first introduced by @Weitzman1970Measures, and further studied by @Inman1989Overlap, @Reiser1999Confidence, and @Clemmons2000Nonparametric. The overlap area between the density curves of $f_1$ and $f_2$, defined as OVL, is given by,
+The second method utilizes the overlap coefficient (OVL), which measures the similarity between two distributions using the common area between two probability density functions. It was first introduced by @Weitzman1970Measures, and further studied by @Inman1989Overlap, @Reiser1999Confidence, and @Clemmons2000Nonparametric. A kernel-based estimate for this measure was discussed by @Schmid2006Nonparametric. The overlap area between the density curves of $f_1$ and $f_2$, defined as OVL, is given by,
 
 \begin{eqnarray}
 \text{OVL} = \int_{-\infty}^{\infty} \min\left[ f_1(x), f_2(x) \right] \, dx.
